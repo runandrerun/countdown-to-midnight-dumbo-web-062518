@@ -1,7 +1,7 @@
 #write your code here
 
-def countdown(start)
-  number = start
+def countdown(number)
+  number = gets.chomp
   while 0 < number
     puts "#{number} SECOND(S)!"
   end
