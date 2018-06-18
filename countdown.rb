@@ -2,7 +2,7 @@
 
 def countdown(number)
   number = gets.chomp
-  while 0 < number
+  while number >= 0
     number -= 1
     puts "#{number} SECOND(S)!"
   end
